@@ -3,8 +3,7 @@
 MyApp is a basic Java application developed using Apache Maven and integrated with Jenkins for continuous integration (CI). The project demonstrates how to automate builds, run unit tests, and streamline the development workflow using Jenkins pipelines.
 
 📁 Project Structure
-maven-project/
-├── README.md
+maven-project
 ├── pom.xml
 └── src
     ├── main
