@@ -1,7 +1,40 @@
-# *Simple-java-maven-app*
+# *📘 Project Description*
 
-This repository is for the Build a Java app with Maven tutorial in the Jenkins User Documentation.
+MyApp is a basic Java application developed using Apache Maven and integrated with Jenkins for continuous integration (CI). The project demonstrates how to automate builds, run unit tests, and streamline the development workflow using Jenkins pipelines.
 
-The repository contains a simple Java application which outputs the string "Hello world!" and is accompanied by a couple of unit tests to check that the main application works as expected. The results of these tests are saved to a JUnit XML report.
+📁 Project Structure
+maven-project/
+├── README.md
+├── pom.xml
+└── src
+    ├── main
+    │   └── com
+    │       └── fortune
+    │           └── myapp
+    │               └── App.java
+    └── test
+        └── com
+            └── fortune
+                └── myapp
+                    └── AppTest.java
 
-The jenkins directory contains an example of the Jenkinsfile (i.e. Pipeline) you'll be creating yourself during the tutorial and the jenkins/scripts subdirectory contains a shell script with commands that are executed when Jenkins processes the "Deliver" stage of your Pipeline.
+
+This serves as a clean, modular starter template for Maven-based Java applications with CI/CD support.
+
+🧰 Features
+Java application (App.java) with a corresponding test class (AppTest.java)
+
+Project managed using Maven (clean project structure and lifecycle commands)
+
+Continuous Integration using Jenkins:
+
+Automatically triggers on Git commits
+
+Runs Maven build and test phases
+
+Provides test results and build logs
+
+Notifies on build status (optional with plugins)
+
+Suitable foundation for adding deployment stages in CI/CD
+
